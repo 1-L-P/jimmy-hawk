@@ -1468,6 +1468,9 @@ img {
     padding-top: 3rem;
 }
 
+.banner {
+  height: 60vh;
+}
 .album {padding-top: 12rem;}
 
 
