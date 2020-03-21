@@ -1443,6 +1443,9 @@ img {
     display: flex;
     width: 100%;
 }
+.full-column {
+  padding: 0 2rem;
+}
 
 .column {
     width: 50%;
