@@ -1647,3 +1647,11 @@ img {
   transform: translate(0, 0);
   opacity: 1;
   }
+
+.contact {
+  padding-bottom: 0;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
