@@ -1634,3 +1634,16 @@ img {
     main { height: 100vh;
   }
 }
+
+/* fade elements in*/
+.fade-in {
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: opacity 2s;
+  transition: all 1s;
+  }
+  
+  .fade-in.visible { 
+  transform: translate(0, 0);
+  opacity: 1;
+  }
