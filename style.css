@@ -1022,13 +1022,18 @@ header .main-heading .slide-container .slide-arrows .button-next {
 }
 
 
-
 .album .content .button-container {
   grid-row: 2 / 4;
   grid-column: 3 / span 6;
   margin-top: 30px;
   z-index: 2;
 }
+
+.button-container {
+  padding: 1rem 0 4rem;
+}
+
+
 @media screen and (max-width: 799px) {
   .album .content .button-container {
     grid-row: 3;
