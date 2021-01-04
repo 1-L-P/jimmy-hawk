@@ -893,18 +893,18 @@ header .main-heading .slide-container .slide-arrows .button-next {
   }
 }
 .videos .modal-video .wrapper-video .close-video {
-  width: 32px;
-  height: 32px;
+  /* width: 32px;
+  height: 32px;*/
   position: fixed;
   background-image: url(https://rafaelalucas91.github.io/assets/icons/gray1/icon-61.svg);
   right: 40px;
   top: 50px;
   cursor: pointer;
   transition: all 0.4s ease;
+  color: white;
+  font-style: normal;
 }
-.videos .modal-video .wrapper-video .close-video:hover {
-  transform: rotate(90deg);
-}
+
 @media screen and (max-width: 799px) {
   .videos .modal-video .wrapper-video .close-video {
     right: 20px;
